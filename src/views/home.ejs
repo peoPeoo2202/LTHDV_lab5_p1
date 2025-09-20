@@ -1,0 +1,102 @@
+<div class="row">
+    <div class="col-12">
+        <div class="jumbotron bg-primary text-white rounded p-5 mb-4">
+            <h1 class="display-4">
+                <i class="fas fa-warehouse me-3"></i>
+                Welcome to Supplier & Product Management
+            </h1>
+            <p class="lead">
+                Manage your suppliers and products efficiently with our comprehensive CRUD system.
+            </p>
+            <hr class="my-4" style="border-color: rgba(255,255,255,0.3);">
+            <p>
+                Built with Node.js, Express, MongoDB, and Mongoose following MVC architecture.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <div class="mb-3">
+                    <i class="fas fa-truck fa-3x text-primary"></i>
+                </div>
+                <h5 class="card-title">Suppliers Management</h5>
+                <p class="card-text">
+                    Create, read, update, and delete supplier information including name, address, and phone.
+                </p>
+                <a href="/suppliers" class="btn btn-primary">
+                    <i class="fas fa-list me-2"></i>View Suppliers
+                </a>
+                <a href="/suppliers/new" class="btn btn-outline-primary ms-2">
+                    <i class="fas fa-plus me-2"></i>Add New
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <div class="mb-3">
+                    <i class="fas fa-box fa-3x text-success"></i>
+                </div>
+                <h5 class="card-title">Products Management</h5>
+                <p class="card-text">
+                    Manage products with supplier relationships. View supplier details for each product.
+                </p>
+                <a href="/products" class="btn btn-success">
+                    <i class="fas fa-list me-2"></i>View Products
+                </a>
+                <a href="/products/new" class="btn btn-outline-success ms-2">
+                    <i class="fas fa-plus me-2"></i>Add New
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <i class="fas fa-info-circle me-2"></i>
+                    System Features
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h6><i class="fas fa-check text-success me-2"></i>CRUD Operations</h6>
+                        <p class="text-muted small">Complete Create, Read, Update, Delete functionality for both entities.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h6><i class="fas fa-link text-primary me-2"></i>Relationships</h6>
+                        <p class="text-muted small">Products are linked to suppliers with populate functionality.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h6><i class="fas fa-shield-alt text-warning me-2"></i>Validation</h6>
+                        <p class="text-muted small">Input validation and error handling for data integrity.</p>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-4">
+                        <h6><i class="fas fa-code text-info me-2"></i>REST API</h6>
+                        <p class="text-muted small">JSON API endpoints available for external integrations.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h6><i class="fas fa-mobile-alt text-secondary me-2"></i>Responsive UI</h6>
+                        <p class="text-muted small">Bootstrap-powered responsive design for all devices.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h6><i class="fas fa-database text-dark me-2"></i>MongoDB</h6>
+                        <p class="text-muted small">NoSQL database with Mongoose ODM for data management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
